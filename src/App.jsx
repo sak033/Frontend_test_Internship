@@ -1,0 +1,74 @@
+import { useState } from 'react'
+import Navbar from './components/Navbar'
+import Card from './components/card'
+import Buycard from './components/Buycard'
+import ReviewCard from './components/ReviewCard'
+import Sellcard from './components/sellcard'
+import Sellcard2 from './components/Sellcard2'
+import Listcard from './components/Listcard'
+import Reviews from './components/Reviews'
+import BestO2 from './components/BestO2'
+import Footer from './components/Footer'
+
+
+function App() {
+  return (
+    <>
+    
+    <div className="bg-cover bg-center bg-no-repeat w-full min-h-screen bg-[url('src/background_Plant.png')]">
+    
+      <Navbar />
+      <div className=' flex justify-between'>
+       <div>
+         <Card />
+         <ReviewCard />
+       </div>
+        <Buycard />
+      </div>
+      <div className='flex justify-center mt-8'>
+        <img src="./src/assets/Icons/trendy_plant_compo.svg" alt="trendy Plant" className='w-40 sm:w-60 md:w-72 lg:w-auto'/>
+      </div>
+      <Sellcard />
+      
+      <Sellcard2/>
+
+      <div className='flex justify-center mt-20'>
+        <img src="./src/assets/Icons/trendy_plant_compo2.svg" alt="trendy Plant"  className='w-40 sm:w-60 sm:-mt-15 md:w-72 lg:w-auto'/>
+      </div>
+      <div className='scale-100'>
+      <Listcard/>
+      </div>
+      
+      
+    </div>
+
+    <div className="bg-[#1B2316] -mt-1 w-full min-h-screen">
+      <div className='flex justify-center '>
+        <img src="./src/assets/Icons/trendy_plant_compo3.svg" alt="trendy Plant" className='mt-10 w-40 sm:w-60 md:w-72 lg:w-auto' />
+      </div>
+      <div className='scale-100'>
+      <Reviews/>
+      </div>
+    </div>
+    <div className='bg-[#1B2316] -mt-1 w-full min-h-screen pt-10'>
+    <div className='flex justify-center  '>
+        <img src="./src/assets/Icons/trendy_plant_compo4.svg" alt="trendy Plant" className='w-40  sm:w-60 md:w-72 lg:w-auto  lg:mt-10 sm:-mt-60' />
+      </div>
+      <div className='-mt-15'>
+     <BestO2/>
+     
+     </div>
+    </div> 
+    <div className='bg-[#1B2316] -mt-1 w-full py-10'>
+    
+      <div className='lg:-mt-15 md:-mt-90 sm:-mt-15'>
+     
+     <Footer/>
+     </div>
+    </div> 
+    
+    </>
+  )
+}
+
+export default App
