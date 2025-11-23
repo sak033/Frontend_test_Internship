@@ -1,5 +1,12 @@
 import React from 'react'
 import { ChevronRight , Ellipsis, List } from 'lucide-react';
+import plantImg1 from '../assets/images/AglaonemaPlant.png';
+import bag from '../assets/Icons/bag.svg';
+import plantImg2 from '../assets/images/Plantain_Lilies.png';
+import plantImg3 from '../assets/images/Cactus.png'
+import plantImg4 from '../assets/images/swiss_cheese_plant.png'
+import plantImg5 from '../assets/images/Sansevieriaplant.png'
+import plantImg6 from '../assets/images/Agaveplant.png'
 
 const Listcard = () => {
   return (
@@ -9,7 +16,7 @@ const Listcard = () => {
     <div className='relative flex lg:w-full lg:h-96 sm:w-72 sm:h-96 bg-white/10 backdrop-blur-lg border border-white/40 text-white   mx-auto rounded-b-[60px] rounded-t-[80px] p-10'>
         <div className="flex justify-center  mb-4 absolute lg:-top-38 md:-top-28 sm:-top-13 lg:left-10 md:left-4 z-20">
             <img
-            src="./src/assets/images/AglaonemaPlant.png"
+            src={plantImg1}
             alt="Aglaonema plant"
             className="w-xl md:w-72 sm:w-56 h-auto object-contain drop-shadow-2xl "
             />
@@ -20,7 +27,7 @@ const Listcard = () => {
                 <div className='flex mt-5 '>
                 <h1 className='lg:text-3xl sm:text-2xl font-thin '>Rs. 399/-</h1>
                 <button className='border-2 border-white rounded-sm ml-20 px-2 py-2 '>
-                    <img src="./src/assets/Icons/bag.svg" alt="" className='w-3.5 h-3.5' />
+                    <img src={bag} alt="" className='w-3.5 h-3.5' />
                 </button>
                 </div>
             </div>
@@ -28,7 +35,7 @@ const Listcard = () => {
     <div className='relative flex lg:w-full lg:h-96 sm:w-72 sm:h-96 bg-white/10 backdrop-blur-lg border border-white/40 text-white mx-auto rounded-b-[60px] rounded-t-[80px] p-10'>
         <div className="flex justify-center  mb-4 absolute lg:-top-20 md:-top-10 sm:-top-2  lg:left-10 md:left-1 z-20">
             <img
-            src="./src/assets/images/Plantain_Lilies.png"
+            src={plantImg2}
             alt="Aglaonema plant"
             className="w-xl md:w-72 sm:w-56 h-auto object-contain drop-shadow-2xl "
             />
@@ -40,7 +47,7 @@ const Listcard = () => {
                 <h1 className='lg:text-3xl sm:text-2xl font-thin'>Rs. 380/-</h1>
     
                 <button className='border-2 border-white rounded-sm ml-20 px-2 py-2 '>
-                    <img src="./src/assets/Icons/bag.svg" alt="" className='w-3.5 h-3.5' />
+                    <img src={bag} alt="" className='w-3.5 h-3.5' />
                 </button>
                 </div>
             </div>
@@ -49,7 +56,7 @@ const Listcard = () => {
     
         <div className="flex justify-center mb-4 absolute lg:-top-20 md:-top-6 sm:-top-2 lg:left-10 md:left-3 z-20">
             <img
-            src="./src/assets/images/Cactus.png"
+            src={plantImg3}
             alt="Aglaonema plant"
             className="w-xl md:w-72 sm:w-56 h-auto object-contain drop-shadow-2xl "
             />
@@ -60,7 +67,7 @@ const Listcard = () => {
                  <div className='flex mt-10 '>
                 <h1 className='lg:text-3xl sm:text-2xl font-thin '>Rs. 259/-</h1>
                 <button className='border-2 border-white rounded-sm px-2 ml-20 py-2 '>
-                    <img src="./src/assets/Icons/bag.svg" alt="" className='w-3.5 h-3.5' />
+                    <img src={bag} alt="" className='w-3.5 h-3.5' />
                 </button>
                 </div>
             </div>
@@ -72,7 +79,7 @@ const Listcard = () => {
     <div className='relative flex lg:w-full lg:h-96 sm:w-72 sm:h-96 bg-white/10 backdrop-blur-lg border border-white/40 text-white mx-auto rounded-b-[60px] rounded-t-[80px] p-10'>
         <div className="flex justify-center mb-4 absolute lg:-top-14 md:-top-13 sm:-top-2 lg:left-10 md:left-3 z-20">
             <img
-            src="./src/assets/images/swiss_cheese_plant.png"
+            src={plantImg4}
             alt="Aglaonema plant"
             className="w-xl md:w-72 sm:w-56 h-auto object-contain drop-shadow-2xl "
             />
@@ -83,7 +90,7 @@ const Listcard = () => {
                  <div className='flex mt-13 '>
                 <h1 className='lg:text-3xl sm:text-2xl font-thin'>Rs. 400/-</h1>  
                 <button className='border-2 border-white rounded-sm px-2 ml-20  py-2 '>
-                    <img src="./src/assets/Icons/bag.svg" alt="" className='w-3.5 h-3.5' />
+                    <img src={bag} alt="" className='w-3.5 h-3.5' />
                 </button>
                 </div>
             </div>
@@ -91,7 +98,7 @@ const Listcard = () => {
     <div className='relative flex lg:w-full lg:h-96 sm:w-72 sm:h-96 bg-white/10 backdrop-blur-lg border border-white/40 text-white mx-auto rounded-b-[60px] rounded-t-[80px] p-10'>
         <div className="flex justify-center mb-4 absolute lg:-top-20 md:-top-20 sm:-top-20 lg:left-10 md:left-1 z-20">
             <img
-            src="./src/assets/images/Sansevieria plant.png"
+            src={plantImg5}
             alt="Aglaonema plant"
             className="w-96 md:w-72 sm:w-56 h-96 object-contain drop-shadow-2xl "
             />
@@ -102,7 +109,7 @@ const Listcard = () => {
                  <div className='flex mt-8 '>
                 <h1 className='lg:text-3xl sm:text-2xl font-thin '>Rs. 450/-</h1>
                 <button className='border-2 border-white rounded-sm px-2 ml-20 py-2 '>
-                    <img src="./src/assets/Icons/bag.svg" alt="" className='w-3.5 h-3.5' />
+                    <img src={bag} alt="" className='w-3.5 h-3.5' />
                 </button>
                 </div>
             </div>
@@ -110,7 +117,7 @@ const Listcard = () => {
     <div className='relative flex lg:w-full lg:h-96 sm:w-72 sm:h-96 bg-white/10 backdrop-blur-lg border border-white/40 text-white mx-auto rounded-b-[60px] rounded-t-[80px] p-10'>
         <div className="flex justify-center mb-4 absolute lg:-top-7 md:-top-7 sm:-top-2 lg:left-10 md:-left-3 z-20">
             <img
-            src="./src/assets/images/Agave plant.png"
+            src={plantImg6}
             alt="Aglaonema plant"
             className="w-xl md:w-72 sm:w-56 h-auto object-contain drop-shadow-2xl "
             />
@@ -121,7 +128,7 @@ const Listcard = () => {
                  <div className='flex mt-3 '>
                 <h1 className='lg:text-3xl sm:text-2xl font-thin'>Rs. 359/-</h1>
                 <button className='border-2 border-white rounded-sm px-2 ml-20 py-2 '>
-                    <img src="./src/assets/Icons/bag.svg" alt="" className='w-3.5 h-3.5' />
+                    <img src={bag} alt="" className='w-3.5 h-3.5' />
                 </button>
                 </div>
             </div>

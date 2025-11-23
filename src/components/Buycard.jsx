@@ -1,5 +1,6 @@
 import React from 'react'
 import { ChevronRight , Ellipsis } from 'lucide-react';
+import plantImg from '../assets/images/AglaonemaPlant.png'
 
 const Buycard = () => {
   return (
@@ -8,7 +9,7 @@ const Buycard = () => {
       sm:w-[50%] sm:h-96 sm:mx-auto sm:mt-10 sm:mr-2 sm:flex-col'>
         <div className="flex justify-center -mt-24 mb-4 absolute -top-30 left-1  z-20">
             <img
-             src="./src/assets/images/AglaonemaPlant.png"
+             src={plantImg}
             alt="Aglaonema plant"
             className="w-xl h-auto lg:-mt-3 sm:mt-13 md:mt-5 object-contain drop-shadow-2xl "
             />

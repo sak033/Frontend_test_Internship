@@ -2,6 +2,9 @@ import React from 'react'
 import { Star } from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import person1 from '../assets/images/shelly.png'
+import person2 from '../assets/images/lula.png'
+import person3 from '../assets/images/carol.png'
 
 const Reviews = () => {
   return (
@@ -9,7 +12,7 @@ const Reviews = () => {
     <div className='hidden lg:grid grid-cols-3 gap-3 -mt-40 -ml-5 p-20'>
     <div className=' w-80 h-80 bg-white/10 backdrop-blur-lg border border-white/40 rounded-3xl text-white m-12 p-10'>
         <div className='flex'>
-            <img src="src/assets/images/shelly.png" alt="profile" className='w-15 h-15'/>
+            <img src={person1} alt="profile" className='w-15 h-15'/>
             <div className='py-2 px-2 ml-3 -mt-2'>
                  <p className='font-semibold text-2xl   '>Shelly Russel</p>
                 <div className='flex text-amber-300'>
@@ -27,7 +30,7 @@ const Reviews = () => {
     </div>
     <div className=' w-80 h-80 bg-white/10 backdrop-blur-lg border border-white/40 rounded-3xl text-white m-12 p-10'>
         <div className='flex'>
-            <img src="src/assets/images/lula.png" alt="profile" className='w-15 h-15'/>
+            <img src={person2} alt="profile" className='w-15 h-15'/>
             <div className='py-2 px-2 ml-3 -mt-2'>
                  <p className='font-semibold text-2xl   '>Lula Rolfson</p>
                 <div className='flex text-amber-300'>
@@ -45,7 +48,7 @@ const Reviews = () => {
     </div>
     <div className=' w-80 h-80 bg-white/10 backdrop-blur-lg border border-white/40 rounded-3xl text-white m-12 p-10'>
         <div className='flex'>
-            <img src="src/assets/images/carol.png" alt="profile" className='w-15 h-15'/>
+            <img src={person3} alt="profile" className='w-15 h-15'/>
             <div className='py-2 px-2 ml-3 -mt-2'>
                  <p className='font-semibold text-2xl   '>Carol Huels</p>
                 <div className='flex text-amber-300'>
@@ -69,7 +72,7 @@ const Reviews = () => {
           <SwiperSlide>
             <div className='w-80 h-80 md:w-72 md:h-72 sm:w-56 sm:h-64  bg-white/10 backdrop-blur-lg border border-white/40 rounded-3xl text-white p-10'>
               <div className='flex'>
-                <img src="src/assets/images/shelly.png" className='w-14 h-14'/>
+                <img src={person1} className='w-14 h-14'/>
                 <div className='py-2 px-3 -mt-1'>
                   <p className='font-semibold text-xl'>Shelly Russel</p>
                   <div className='flex text-amber-300'>
@@ -90,7 +93,7 @@ const Reviews = () => {
           <SwiperSlide>
             <div className='w-80 h-80 md:w-72 md:h-72 sm:w-56 sm:h-64 bg-white/10 backdrop-blur-lg border border-white/40 rounded-3xl text-white p-10'>
               <div className='flex'>
-                <img src="src/assets/images/lula.png" className='w-14 h-14'/>
+                <img src={person2} className='w-14 h-14'/>
                 <div className='py-2 px-3 -mt-1'>
                   <p className='font-semibold text-xl'>Lula Rolfson</p>
                   <div className='flex text-amber-300'>
@@ -111,7 +114,7 @@ const Reviews = () => {
           <SwiperSlide>
             <div className='w-80 h-80 md:w-72 md:h-72 sm:w-56 sm:h-64 bg-white/10 backdrop-blur-lg border border-white/40 rounded-3xl text-white p-10'>
               <div className='flex'>
-                <img src="src/assets/images/carol.png" className='w-14 h-14'/>
+                <img src={person3} className='w-14 h-14'/>
                 <div className='py-2 px-3 -mt-1'>
                   <p className='font-semibold text-xl'>Carol Huels</p>
                   <div className='flex text-amber-300'>

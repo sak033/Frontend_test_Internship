@@ -10,6 +10,10 @@ import Reviews from './components/Reviews'
 import BestO2 from './components/BestO2'
 import Footer from './components/Footer'
 import bg from './background_Plant.png';
+import compo1 from './assets/Icons/trendy_plant_compo.svg'
+import compo2 from './assets/Icons/trendy_plant_compo2.svg'
+import compo3 from './assets/Icons/trendy_plant_compo3.svg'
+import compo4 from './assets/Icons/trendy_plant_compo4.svg'
 
 
 
@@ -27,14 +31,14 @@ function App() {
         <Buycard />
       </div>
       <div className='flex justify-center mt-8'>
-        <img src="./src/assets/Icons/trendy_plant_compo.svg" alt="trendy Plant" className='w-40 sm:w-60 md:w-72 lg:w-auto'/>
+        <img src={compo1} alt="trendy Plant" className='w-40 sm:w-60 md:w-72 lg:w-auto'/>
       </div>
       <Sellcard />
       
       <Sellcard2/>
 
       <div className='flex justify-center mt-20'>
-        <img src="./src/assets/Icons/trendy_plant_compo2.svg" alt="trendy Plant"  className='w-40 sm:w-60 sm:-mt-15 md:w-72 lg:w-auto'/>
+        <img src={compo2} alt="trendy Plant"  className='w-40 sm:w-60 sm:-mt-15 md:w-72 lg:w-auto'/>
       </div>
       <div className='scale-100'>
       <Listcard/>
@@ -45,7 +49,7 @@ function App() {
 
     <div className="bg-[#1B2316] -mt-1 w-full min-h-screen">
       <div className='flex justify-center '>
-        <img src="./src/assets/Icons/trendy_plant_compo3.svg" alt="trendy Plant" className='mt-10 w-40 sm:w-60 md:w-72 lg:w-auto' />
+        <img src={compo3} alt="trendy Plant" className='mt-10 w-40 sm:w-60 md:w-72 lg:w-auto' />
       </div>
       <div className='scale-100'>
       <Reviews/>
@@ -53,7 +57,7 @@ function App() {
     </div>
     <div className='bg-[#1B2316] -mt-1 w-full min-h-screen pt-10'>
     <div className='flex justify-center  '>
-        <img src="./src/assets/Icons/trendy_plant_compo4.svg" alt="trendy Plant" className='w-40  sm:w-60 md:w-72 lg:w-auto  lg:mt-10 sm:-mt-60' />
+        <img src={compo4} alt="trendy Plant" className='w-40  sm:w-60 md:w-72 lg:w-auto  lg:mt-10 sm:-mt-60' />
       </div>
       <div className='-mt-15'>
      <BestO2/>

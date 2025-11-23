@@ -1,5 +1,6 @@
 import React from 'react'
 import { ChevronRight , Ellipsis } from 'lucide-react';
+import plantImg from '../assets/images/AglaonemaPlant.png'
 
 
 
@@ -10,7 +11,7 @@ const BestO2 = () => {
         <div className='flex justify-center'>
         <div className='relative flex justify-between gap-6  lg:w-7xl lg:h-87 md:w-[800px] md:h-64 md:flex-col md:items-center md:text-center sm:w-[360px] sm:h-auto sm:flex-col sm:items-center sm:text-center bg-white/10 backdrop-blur-lg border border-white/40 rounded-3xl text-white m-8 p-10'>
             <div>
-                <img src="./src/assets/images/AglaonemaPlant.png" alt="Aglaonema Plant"  className='absolute lg:-top-55 lg:left-60 lg:w-130  md:-top-28 md:left-30 md:-translate-x-1/2 md:w-72 sm:-top-20 sm:left-1/2 sm:-translate-x-1/2 sm:w-60 z-20'/>
+                <img src={plantImg} alt="Aglaonema Plant"  className='absolute lg:-top-55 lg:left-60 lg:w-130  md:-top-28 md:left-30 md:-translate-x-1/2 md:w-72 sm:-top-20 sm:left-1/2 sm:-translate-x-1/2 sm:w-60 z-20'/>
             </div>
             <div className='lg:w-[600px] lg:h-auto  md:w-[600px] md:h-auto sm:w-[320px] sm:h-auto lg:ml-100 lg:-mt-10 md:ml-52 md:-mt-14 md:px-8 md:text-center sm:ml-0 sm:mt-32 sm:px-5 sm:text-center'>
                 <h1 className='lg:text-3xl font-semibold lg:-ml-18 md:-ml-8 md:text-2xl sm:text-xl '>We Have Small And Best O2 Plants Collection’s</h1>
