@@ -3,3 +3,7 @@
 .font-Indie {
   font-family: 'Indie Flower', cursive;
 }
+
+html {
+  scroll-behavior: smooth;
+}

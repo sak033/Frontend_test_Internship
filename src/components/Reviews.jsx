@@ -67,7 +67,7 @@ const Reviews = () => {
     </div>
 
 
-    <div className="lg:hidden flex justify-center lg:px-50 lg:py-5 md:py-1 md:px-60 sm:px-50 sm:py-4 md:ml-5 sm:ml-4 lg:mt-5 md:mt-1">
+    <div className="lg:hidden flex justify-center px-11 py-5 lg:px-50 lg:py-5 md:py-1 md:px-60 sm:px-50 sm:py-4 md:ml-5 sm:ml-4 lg:mt-5 md:mt-1">
         <Swiper spaceBetween={20} slidesPerView={1} loop={true}>
           <SwiperSlide>
             <div className='w-80 h-80 md:w-72 md:h-72 sm:w-56 sm:h-64  bg-white/10 backdrop-blur-lg border border-white/40 rounded-3xl text-white p-10'>

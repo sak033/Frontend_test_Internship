@@ -25,7 +25,9 @@ function App() {
      <Navbar />
       <div className=' flex justify-between'>
        <div>
+        <div id="home">
          <Card />
+        </div>
          <ReviewCard />
        </div>
         <Buycard />
@@ -37,10 +39,10 @@ function App() {
       
       <Sellcard2/>
 
-      <div className='flex justify-center mt-20'>
-        <img src={compo2} alt="trendy Plant"  className='w-40 sm:w-60 sm:-mt-15 md:w-72 lg:w-auto'/>
+      <div className='flex justify-center mt-15 lg:mt-20 md:mt-20 sm:mt-20'>
+        <img src={compo2} alt="trendy Plant"  className='w-40 sm:w-60 -mt-24 lg:-mt-10 md:-mt-10 sm:-mt-15 md:w-72 lg:w-auto'/>
       </div>
-      <div className='scale-100'>
+      <div id="planttype" className='scale-100'>
       <Listcard/>
       </div>
       
@@ -51,13 +53,13 @@ function App() {
       <div className='flex justify-center '>
         <img src={compo3} alt="trendy Plant" className='mt-10 w-40 sm:w-60 md:w-72 lg:w-auto' />
       </div>
-      <div className='scale-100'>
+      <div id="more" className='scale-100'>
       <Reviews/>
       </div>
     </div>
     <div className='bg-[#1B2316] -mt-1 w-full min-h-screen pt-10'>
-    <div className='flex justify-center  '>
-        <img src={compo4} alt="trendy Plant" className='w-40  sm:w-60 md:w-72 lg:w-auto  lg:mt-10 sm:-mt-60' />
+    <div className='flex justify-center   '>
+        <img src={compo4} alt="trendy Plant" className='w-40  sm:w-60 md:w-72 lg:w-auto -mt-150 lg:mt-10 md:-mt-20 sm:-mt-60' />
       </div>
       <div className='-mt-15'>
      <BestO2/>
@@ -66,7 +68,7 @@ function App() {
     </div> 
     <div className='bg-[#1B2316] -mt-1 w-full py-10'>
     
-      <div className='lg:-mt-15 md:-mt-90 sm:-mt-15'>
+      <div id="contact" className='-mt-90 lg:-mt-15 md:-mt-90 sm:-mt-20'>
      
      <Footer/>
      </div>

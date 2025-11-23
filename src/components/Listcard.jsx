@@ -14,7 +14,7 @@ const Listcard = () => {
     
     <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-y-15 -mt-30 p-20'>
     <div className='relative flex lg:w-full lg:h-96 sm:w-72 sm:h-96 bg-white/10 backdrop-blur-lg border border-white/40 text-white   mx-auto rounded-b-[60px] rounded-t-[80px] p-10'>
-        <div className="flex justify-center  mb-4 absolute lg:-top-38 md:-top-28 sm:-top-13 lg:left-10 md:left-4 z-20">
+        <div className="flex justify-center  mb-4 absolute -top-10 lg:-top-38 md:-top-28 sm:-top-13 lg:left-10 md:left-4 z-20">
             <img
             src={plantImg1}
             alt="Aglaonema plant"
@@ -27,13 +27,13 @@ const Listcard = () => {
                 <div className='flex mt-5 '>
                 <h1 className='lg:text-3xl sm:text-2xl font-thin '>Rs. 399/-</h1>
                 <button className='border-2 border-white rounded-sm ml-20 px-2 py-2 '>
-                    <img src={bag} alt="" className='w-3.5 h-3.5' />
+                    <img src={bag} alt="" className='cursor-pointer w-3.5 h-3.5' />
                 </button>
                 </div>
             </div>
     </div>
     <div className='relative flex lg:w-full lg:h-96 sm:w-72 sm:h-96 bg-white/10 backdrop-blur-lg border border-white/40 text-white mx-auto rounded-b-[60px] rounded-t-[80px] p-10'>
-        <div className="flex justify-center  mb-4 absolute lg:-top-20 md:-top-10 sm:-top-2  lg:left-10 md:left-1 z-20">
+        <div className="flex justify-center  mb-4 absolute -top-1 lg:-top-20 md:-top-10 sm:-top-2 left-1 lg:left-10 md:left-1 z-20">
             <img
             src={plantImg2}
             alt="Aglaonema plant"
@@ -47,14 +47,14 @@ const Listcard = () => {
                 <h1 className='lg:text-3xl sm:text-2xl font-thin'>Rs. 380/-</h1>
     
                 <button className='border-2 border-white rounded-sm ml-20 px-2 py-2 '>
-                    <img src={bag} alt="" className='w-3.5 h-3.5' />
+                    <img src={bag} alt="" className='cursor-pointer w-3.5 h-3.5' />
                 </button>
                 </div>
             </div>
     </div>
     <div className='relative flex lg:w-full lg:h-96 sm:w-72 sm:h-96 bg-white/10 backdrop-blur-lg border border-white/40 text-white mx-auto rounded-b-[60px] rounded-t-[80px] p-10'>
     
-        <div className="flex justify-center mb-4 absolute lg:-top-20 md:-top-6 sm:-top-2 lg:left-10 md:left-3 z-20">
+        <div className="flex justify-center mb-4 absolute -top-2 lg:-top-20 md:-top-6 sm:-top-2 left-1 lg:left-10 md:left-3 z-20">
             <img
             src={plantImg3}
             alt="Aglaonema plant"
@@ -67,7 +67,7 @@ const Listcard = () => {
                  <div className='flex mt-10 '>
                 <h1 className='lg:text-3xl sm:text-2xl font-thin '>Rs. 259/-</h1>
                 <button className='border-2 border-white rounded-sm px-2 ml-20 py-2 '>
-                    <img src={bag} alt="" className='w-3.5 h-3.5' />
+                    <img src={bag} alt="" className='cursor-pointer w-3.5 h-3.5' />
                 </button>
                 </div>
             </div>
@@ -77,7 +77,7 @@ const Listcard = () => {
 
     
     <div className='relative flex lg:w-full lg:h-96 sm:w-72 sm:h-96 bg-white/10 backdrop-blur-lg border border-white/40 text-white mx-auto rounded-b-[60px] rounded-t-[80px] p-10'>
-        <div className="flex justify-center mb-4 absolute lg:-top-14 md:-top-13 sm:-top-2 lg:left-10 md:left-3 z-20">
+        <div className="flex justify-center mb-4 absolute -top-3 lg:-top-14 md:-top-13 sm:-top-2 left-1 lg:left-10 md:left-3 z-20">
             <img
             src={plantImg4}
             alt="Aglaonema plant"
@@ -90,13 +90,13 @@ const Listcard = () => {
                  <div className='flex mt-13 '>
                 <h1 className='lg:text-3xl sm:text-2xl font-thin'>Rs. 400/-</h1>  
                 <button className='border-2 border-white rounded-sm px-2 ml-20  py-2 '>
-                    <img src={bag} alt="" className='w-3.5 h-3.5' />
+                    <img src={bag} alt="" className='cursor-pointer w-3.5 h-3.5' />
                 </button>
                 </div>
             </div>
     </div>
     <div className='relative flex lg:w-full lg:h-96 sm:w-72 sm:h-96 bg-white/10 backdrop-blur-lg border border-white/40 text-white mx-auto rounded-b-[60px] rounded-t-[80px] p-10'>
-        <div className="flex justify-center mb-4 absolute lg:-top-20 md:-top-20 sm:-top-20 lg:left-10 md:left-1 z-20">
+        <div className="flex justify-center mb-4 absolute -top-21 lg:-top-20 md:-top-20 sm:-top-20 left-1 lg:left-10 md:left-1 z-20">
             <img
             src={plantImg5}
             alt="Aglaonema plant"
@@ -109,13 +109,13 @@ const Listcard = () => {
                  <div className='flex mt-8 '>
                 <h1 className='lg:text-3xl sm:text-2xl font-thin '>Rs. 450/-</h1>
                 <button className='border-2 border-white rounded-sm px-2 ml-20 py-2 '>
-                    <img src={bag} alt="" className='w-3.5 h-3.5' />
+                    <img src={bag} alt="" className='cursor-pointer w-3.5 h-3.5' />
                 </button>
                 </div>
             </div>
     </div>
     <div className='relative flex lg:w-full lg:h-96 sm:w-72 sm:h-96 bg-white/10 backdrop-blur-lg border border-white/40 text-white mx-auto rounded-b-[60px] rounded-t-[80px] p-10'>
-        <div className="flex justify-center mb-4 absolute lg:-top-7 md:-top-7 sm:-top-2 lg:left-10 md:-left-3 z-20">
+        <div className="flex justify-center mb-4 absolute -top-2 lg:-top-7 md:-top-7 sm:-top-2 left-2 lg:left-10 md:-left-3 z-20">
             <img
             src={plantImg6}
             alt="Aglaonema plant"
@@ -128,7 +128,7 @@ const Listcard = () => {
                  <div className='flex mt-3 '>
                 <h1 className='lg:text-3xl sm:text-2xl font-thin'>Rs. 359/-</h1>
                 <button className='border-2 border-white rounded-sm px-2 ml-20 py-2 '>
-                    <img src={bag} alt="" className='w-3.5 h-3.5' />
+                    <img src={bag} alt="" className='cursor-pointer w-3.5 h-3.5' />
                 </button>
                 </div>
             </div>
