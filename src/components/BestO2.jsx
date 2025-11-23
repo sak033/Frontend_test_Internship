@@ -1,6 +1,7 @@
 import React from 'react'
 import { ChevronRight } from 'lucide-react';
 import plantImg from '../assets/images/AglaonemaPlant.png';
+import dots from '../assets/Icons/ThreeDots.svg'
 
 const BestO2 = () => {
   return (
@@ -42,7 +43,7 @@ const BestO2 = () => {
            </div>
            </div>
       <div className="flex justify-center mt-10">
-        <img src="/src/assets/Icons/ThreeDots.svg" alt="carousel dots" className="w-12"/>
+        <img src={dots} alt="carousel dots" className="w-12"/>
       </div>
     </>
   );
