@@ -1,23 +1,24 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
-import Card from './components/card'
+import Card from './components/Card'
 import Buycard from './components/Buycard'
 import ReviewCard from './components/ReviewCard'
-import Sellcard from './components/sellcard'
+import Sellcard from './components/Sellcard'
 import Sellcard2 from './components/Sellcard2'
 import Listcard from './components/Listcard'
 import Reviews from './components/Reviews'
 import BestO2 from './components/BestO2'
 import Footer from './components/Footer'
+import bg from './background_Plant.png';
+
 
 
 function App() {
   return (
     <>
     
-    <div className="bg-cover bg-center bg-no-repeat w-full min-h-screen bg-[url('src/background_Plant.png')]">
-    
-      <Navbar />
+    <div style={{ backgroundImage: `url(${bg})` }} className="bg-cover bg-center bg-no-repeat w-full min-h-screen" >
+     <Navbar />
       <div className=' flex justify-between'>
        <div>
          <Card />
