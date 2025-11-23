@@ -53,6 +53,44 @@ This project was created as a frontend assignment for an internship test.
 
 ---
 
+## 📂 Folder Structure
+
+📦 src
+┣ 📂 assets
+┃ ┣ 📂 images
+┃ ┣ 📂 Icons
+┣ 📂 components
+┃ ┣ Navbar.jsx
+┃ ┣ Card.jsx
+┃ ┣ Buycard.jsx
+┃ ┣ ReviewCard.jsx
+┃ ┣ Sellcard.jsx
+┃ ┣ Sellcard2.jsx
+┃ ┣ Listcard.jsx
+┃ ┣ Reviews.jsx
+┃ ┗ Footer.jsx
+┣ App.jsx
+┣ main.jsx
+┗ index.css
+
+yaml
+Copy code
+
+---
+
+## 🧰 Installation & Setup
+
+### 1️⃣ Clone the repository  
+git clone https://github.com/sak033/Frontend_test_Internship.git
+### 2️⃣ Install dependencies
+npm install
+### 3️⃣ Start development server
+npm run dev
+### 4️⃣ Build for production
+npm run build
+
+---
+
 ##🧑‍💻 Author
 
 Sakshi Kuthe
