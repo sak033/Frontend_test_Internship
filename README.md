@@ -1,16 +1,60 @@
-# React + Vite
+# 🌿 FloraVision – Plant Store Frontend  
+A modern, responsive plant-themed UI built using **React + Vite + Tailwind CSS**.  
+This project was created as a frontend assignment for an internship test.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🚀 Live Demo  
+🔗 **https://frontend-test-internship.onrender.com**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✅ Fully Responsive UI  
+- Works smoothly on **mobile (320px)**, **tablet**, and **desktop (1440px)**.  
+- Layout matches the original **Figma design intent** across breakpoints.
 
-## Expanding the ESLint configuration
+### ✅ Modern Clean Interface  
+- Glass-morphism cards  
+- Attractive plant product cards  
+- Smooth grid alignment  
+- Mobile-first navigation  
+- Light animations & shadows
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✅ Interactive Components  
+- Hamburger menu  
+- Dropdown for plant categories  
+- Carousel for reviews  
+- Scroll-to-section navigation  
+- Dynamic imported images (no broken paths)
+
+### 🧩 Sections Included
+- Navigation bar  
+- Hero section ("Earth's Exhale")  
+- Buy Now plant card  
+- Customer review cards + mobile carousel  
+- Plant listing grid  
+- Oxygen plant highlight section  
+- Footer with newsletter signup  
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| **React.js** | Frontend UI |
+| **Vite** | Fast dev/build tooling |
+| **Tailwind CSS** | Styling + responsiveness |
+| **Swiper.js** | Mobile review carousel |
+| **Lucide Icons** | Icons used across app |
+| **Render** | Hosting/Deployment |
+
+---
+
+##🧑‍💻 Author
+
+Sakshi Kuthe
+GitHub: https://github.com/sak033
+
